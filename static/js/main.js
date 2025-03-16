@@ -1090,27 +1090,15 @@ function updateGiTimeChartWithStats(statsData) {
                     borderWidth: 1
                 },
                 {
-                    label: 'Handling Units',
-                    data: chartData.hu,
-                    backgroundColor: '#4949f2', // Lighter blue
-                    borderWidth: 1
-                },
-                {
                     label: 'Lines',
                     data: chartData.lines,
                     backgroundColor: '#e91e63', // Red
                     borderWidth: 1
                 },
                 {
-                    label: 'Lines Picked',
-                    data: chartData.linesPicked,
-                    backgroundColor: '#ff9800', // Orange
-                    borderWidth: 1
-                },
-                {
                     label: 'Lines Not Picked',
                     data: chartData.linesNotPicked,
-                    backgroundColor: '#f06292', // Pink/Light red
+                    backgroundColor: '#7e57c2', // Purple
                     borderWidth: 1
                 }
             ]
