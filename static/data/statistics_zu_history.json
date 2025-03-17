@@ -1,13 +1,13 @@
 {
-  "total_boxes": 741,
+  "total_boxes": 754,
   "users": [
     {
       "user": "HRLOUB131",
-      "box_count": 238
+      "box_count": 244
     },
     {
       "user": "HRLOUB65",
-      "box_count": 191
+      "box_count": 198
     },
     {
       "user": "HRLOUB75",
@@ -264,15 +264,19 @@
     {
       "interval_start": "09:00:00",
       "interval_end": "09:15:00",
-      "box_count": 9,
+      "box_count": 22,
       "users": [
+        {
+          "user": "HRLOUB131",
+          "box_count": 10
+        },
+        {
+          "user": "HRLOUB65",
+          "box_count": 7
+        },
         {
           "user": "HRLOUB216",
           "box_count": 5
-        },
-        {
-          "user": "HRLOUB131",
-          "box_count": 4
         }
       ]
     },
@@ -628,7 +632,7 @@
   "user_statistics": [
     {
       "user": "HRLOUB131",
-      "total_boxes": 238,
+      "total_boxes": 244,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -693,13 +697,13 @@
         {
           "interval_start": "09:00:00",
           "interval_end": "09:15:00",
-          "box_count": 4
+          "box_count": 10
         }
       ]
     },
     {
       "user": "HRLOUB65",
-      "total_boxes": 191,
+      "total_boxes": 198,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -745,6 +749,11 @@
           "interval_start": "08:45:00",
           "interval_end": "09:00:00",
           "box_count": 18
+        },
+        {
+          "interval_start": "09:00:00",
+          "interval_end": "09:15:00",
+          "box_count": 7
         }
       ]
     },
