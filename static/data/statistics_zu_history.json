@@ -1,17 +1,17 @@
 {
-  "total_boxes": 1448,
+  "total_boxes": 1459,
   "users": [
     {
       "user": "HRLOUB65",
-      "box_count": 478
+      "box_count": 483
     },
     {
       "user": "HRLOUB131",
-      "box_count": 460
+      "box_count": 463
     },
     {
       "user": "HRLOUB216",
-      "box_count": 326
+      "box_count": 329
     },
     {
       "user": "HRLOUB75",
@@ -505,27 +505,36 @@
     {
       "interval_start": "12:30:00",
       "interval_end": "12:45:00",
-      "box_count": 42,
+      "box_count": 50,
       "users": [
         {
           "user": "HRLOUB131",
-          "box_count": 21
+          "box_count": 24
         },
         {
           "user": "HRLOUB216",
-          "box_count": 12
+          "box_count": 14
         },
         {
           "user": "HRLOUB65",
-          "box_count": 9
+          "box_count": 12
         }
       ]
     },
     {
       "interval_start": "12:45:00",
       "interval_end": "13:00:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 3,
+      "users": [
+        {
+          "user": "HRLOUB65",
+          "box_count": 2
+        },
+        {
+          "user": "HRLOUB216",
+          "box_count": 1
+        }
+      ]
     },
     {
       "interval_start": "13:00:00",
@@ -789,7 +798,7 @@
   "user_statistics": [
     {
       "user": "HRLOUB65",
-      "total_boxes": 478,
+      "total_boxes": 483,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -894,13 +903,18 @@
         {
           "interval_start": "12:30:00",
           "interval_end": "12:45:00",
-          "box_count": 9
+          "box_count": 12
+        },
+        {
+          "interval_start": "12:45:00",
+          "interval_end": "13:00:00",
+          "box_count": 2
         }
       ]
     },
     {
       "user": "HRLOUB131",
-      "total_boxes": 460,
+      "total_boxes": 463,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1020,13 +1034,13 @@
         {
           "interval_start": "12:30:00",
           "interval_end": "12:45:00",
-          "box_count": 21
+          "box_count": 24
         }
       ]
     },
     {
       "user": "HRLOUB216",
-      "total_boxes": 326,
+      "total_boxes": 329,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1141,7 +1155,12 @@
         {
           "interval_start": "12:30:00",
           "interval_end": "12:45:00",
-          "box_count": 12
+          "box_count": 14
+        },
+        {
+          "interval_start": "12:45:00",
+          "interval_end": "13:00:00",
+          "box_count": 1
         }
       ]
     },
