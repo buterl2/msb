@@ -1,29 +1,45 @@
 {
-  "total_picks": 1560,
+  "total_picks": 1669,
   "picker_totals": [
     {
       "picker": "??",
-      "total_picks": 157
+      "total_picks": 160
     },
     {
       "picker": "ATANAS MUNDOV ",
-      "total_picks": 137
-    },
-    {
-      "picker": "VALLERIA - OLD",
-      "total_picks": 110
+      "total_picks": 146
     },
     {
       "picker": "VALENTINA VYSOCKAJA ",
-      "total_picks": 104
+      "total_picks": 116
+    },
+    {
+      "picker": "VALLERIA - OLD",
+      "total_picks": 112
     },
     {
       "picker": "OSCAR SANTANA TORRES",
-      "total_picks": 103
+      "total_picks": 109
+    },
+    {
+      "picker": "AURIMAS",
+      "total_picks": 102
+    },
+    {
+      "picker": "HRYVTSONA OLENA",
+      "total_picks": 101
     },
     {
       "picker": "TAISIIA SPETSEVA",
-      "total_picks": 92
+      "total_picks": 93
+    },
+    {
+      "picker": "ROMAN TYMOSHENKO",
+      "total_picks": 91
+    },
+    {
+      "picker": "OLEH LAHODIIENKO",
+      "total_picks": 88
     },
     {
       "picker": "DANIEL URSACIUC",
@@ -34,32 +50,16 @@
       "total_picks": 88
     },
     {
-      "picker": "HRYVTSONA OLENA",
-      "total_picks": 87
-    },
-    {
-      "picker": "AURIMAS",
-      "total_picks": 87
-    },
-    {
       "picker": "MARYIANNA TEMP",
-      "total_picks": 84
+      "total_picks": 87
     },
     {
       "picker": "KRISTINA",
       "total_picks": 78
     },
     {
-      "picker": "ROMAN TYMOSHENKO",
-      "total_picks": 73
-    },
-    {
       "picker": "RADOSLAW WIECZKOWSKI",
       "total_picks": 69
-    },
-    {
-      "picker": "OLEH LAHODIIENKO",
-      "total_picks": 63
     },
     {
       "picker": "PAUL IOAN PITIC",
@@ -83,7 +83,7 @@
     },
     {
       "picker": "ADRIAN CETERA",
-      "total_picks": 1
+      "total_picks": 2
     }
   ],
   "intervals": [
@@ -396,23 +396,27 @@
     {
       "interval_start": "08:15:00",
       "interval_end": "08:30:00",
-      "total_picks": 229,
+      "total_picks": 235,
       "pickers": [
         {
           "picker": "ATANAS MUNDOV ",
           "pick_count": 44
         },
         {
+          "picker": "??",
+          "pick_count": 31
+        },
+        {
           "picker": "RADOSLAW WIECZKOWSKI",
           "pick_count": 29
         },
         {
-          "picker": "??",
-          "pick_count": 28
-        },
-        {
           "picker": "SMITH MITCHEL ",
           "pick_count": 22
+        },
+        {
+          "picker": "OSCAR SANTANA TORRES",
+          "pick_count": 15
         },
         {
           "picker": "DANIEL URSACIUC",
@@ -427,10 +431,6 @@
           "pick_count": 13
         },
         {
-          "picker": "OSCAR SANTANA TORRES",
-          "pick_count": 13
-        },
-        {
           "picker": "VALENTINA VYSOCKAJA ",
           "pick_count": 12
         },
@@ -439,12 +439,12 @@
           "pick_count": 12
         },
         {
-          "picker": "JACEK - NEW STARTER ",
+          "picker": "MARYIANNA TEMP",
           "pick_count": 7
         },
         {
-          "picker": "MARYIANNA TEMP",
-          "pick_count": 6
+          "picker": "JACEK - NEW STARTER ",
+          "pick_count": 7
         },
         {
           "picker": "OLEH LAHODIIENKO",
@@ -471,8 +471,12 @@
     {
       "interval_start": "08:30:00",
       "interval_end": "08:45:00",
-      "total_picks": 208,
+      "total_picks": 211,
       "pickers": [
+        {
+          "picker": "MARYIANNA TEMP",
+          "pick_count": 22
+        },
         {
           "picker": "VALENTINA VYSOCKAJA ",
           "pick_count": 21
@@ -484,10 +488,6 @@
         {
           "picker": "VALLERIA - OLD",
           "pick_count": 21
-        },
-        {
-          "picker": "MARYIANNA TEMP",
-          "pick_count": 20
         },
         {
           "picker": "OLEH LAHODIIENKO",
@@ -511,7 +511,7 @@
         },
         {
           "picker": "TAISIIA SPETSEVA",
-          "pick_count": 11
+          "pick_count": 12
         },
         {
           "picker": "DANIEL URSACIUC",
@@ -542,11 +542,11 @@
     {
       "interval_start": "08:45:00",
       "interval_end": "09:00:00",
-      "total_picks": 114,
+      "total_picks": 120,
       "pickers": [
         {
           "picker": "OSCAR SANTANA TORRES",
-          "pick_count": 30
+          "pick_count": 34
         },
         {
           "picker": "??",
@@ -562,7 +562,7 @@
         },
         {
           "picker": "VALLERIA - OLD",
-          "pick_count": 9
+          "pick_count": 11
         },
         {
           "picker": "TAISIIA SPETSEVA",
@@ -585,7 +585,7 @@
     {
       "interval_start": "09:00:00",
       "interval_end": "09:15:00",
-      "total_picks": 73,
+      "total_picks": 76,
       "pickers": [
         {
           "picker": "VALENTINA VYSOCKAJA ",
@@ -597,7 +597,7 @@
         },
         {
           "picker": "ROMAN TYMOSHENKO",
-          "pick_count": 12
+          "pick_count": 15
         },
         {
           "picker": "SMITH MITCHEL ",
@@ -620,8 +620,37 @@
     {
       "interval_start": "09:15:00",
       "interval_end": "09:30:00",
-      "total_picks": 0,
-      "pickers": []
+      "total_picks": 91,
+      "pickers": [
+        {
+          "picker": "OLEH LAHODIIENKO",
+          "pick_count": 25
+        },
+        {
+          "picker": "ROMAN TYMOSHENKO",
+          "pick_count": 15
+        },
+        {
+          "picker": "AURIMAS",
+          "pick_count": 15
+        },
+        {
+          "picker": "HRYVTSONA OLENA",
+          "pick_count": 14
+        },
+        {
+          "picker": "VALENTINA VYSOCKAJA ",
+          "pick_count": 12
+        },
+        {
+          "picker": "ATANAS MUNDOV ",
+          "pick_count": 9
+        },
+        {
+          "picker": "ADRIAN CETERA",
+          "pick_count": 1
+        }
+      ]
     },
     {
       "interval_start": "09:30:00",
