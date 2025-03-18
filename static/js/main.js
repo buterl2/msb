@@ -1621,6 +1621,10 @@ function updateDashboard(data) {
     if (data.last_modified) {
         // Convert the timestamp to a readable format (DD-MM-YY HH:MM:SS)
         const lastModified = new Date(data.last_modified);
+
+        lastModified.setHours(lastModified.getHours() + 1);
+
+        
         const day = String(lastModified.getDate()).padStart(2, '0');
         const month = String(lastModified.getMonth() + 1).padStart(2, '0');
         const year = String(lastModified.getFullYear()).slice(2); // Get last 2 digits
