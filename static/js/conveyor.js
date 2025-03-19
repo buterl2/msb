@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Register the annotation plugin
-    Chart.register(ChartAnnotation);
-
     // Fetch CDHDR statistics data on page load
     fetchCdhrData();
 
@@ -78,6 +75,17 @@ function createHourlyChart(ctx, cdhrData) {
                     backgroundColor: '#e91e63',     // Red for bars
                     borderColor: '#c2185b',         // Darker red for border
                     borderWidth: 1
+                },
+                {
+                    // Add a second dataset for the target line
+                    label: 'Target (600)',
+                    data: hourLabels.map(() => 600), // Create an array with 600 for each hour
+                    type: 'line',
+                    borderColor: '#FFD700',
+                    borderWidth: 3,
+                    borderDash: [10, 5],
+                    pointRadius: 0, // Hide points
+                    fill: false
                 }
             ]
         },
@@ -86,7 +94,7 @@ function createHourlyChart(ctx, cdhrData) {
             maintainAspectRatio: false,
             layout: {
                 padding: {
-                    top: 30, // Added more top padding for the target line annotation
+                    top: 30,
                     right: 20,
                     bottom: 10,
                     left: 20
@@ -133,7 +141,7 @@ function createHourlyChart(ctx, cdhrData) {
                         color: 'rgba(255, 255, 255, 0.1)'
                     },
                     beginAtZero: true,
-                    suggestedMax: 700, // Added some space above the target line
+                    suggestedMax: 700 // Added some space above the target line
                 }
             },
             plugins: {
@@ -152,11 +160,6 @@ function createHourlyChart(ctx, cdhrData) {
                 tooltip: {
                     mode: 'index',
                     intersect: false,
-                    callbacks: {
-                        label: function(context) {
-                            return `Boxes: ${context.raw}`;
-                        }
-                    },
                     titleFont: {
                         size: 18
                     },
@@ -164,29 +167,6 @@ function createHourlyChart(ctx, cdhrData) {
                         size: 16
                     },
                     padding: 10
-                },
-                annotation: {
-                    annotations: {
-                        targetLine: {
-                            type: 'line',
-                            yMin: 600,
-                            yMax: 600,
-                            borderColor: '#FFD700', // Gold color for the target line
-                            borderWidth: 3,
-                            borderDash: [10, 5], // Dashed line
-                            label: {
-                                enabled: true,
-                                content: 'Target: 600',
-                                position: 'end',
-                                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                                color: '#FFD700',
-                                font: {
-                                    size: 16,
-                                    weight: 'bold'
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }
