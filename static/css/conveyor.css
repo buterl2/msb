@@ -31,50 +31,8 @@ body {
     box-sizing: border-box;
 }
 
-.chart-header {
-    margin-bottom: 20px;
-    padding-top: 20px;
-}
-
-.chart-title {
-    font-size: 1.5rem;
-    color: #ffffff;
-    font-weight: 600;
-    margin: 0;
-    text-align: center;
-}
-
-.title-with-total {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.total-boxes-container {
-    background-color: #1e293b;
-    border: 1px solid #384557;
-    border-radius: 6px;
-    padding: 8px 12px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.total-boxes-label {
-    font-size: 0.8rem;
-    color: #aaaaaa;
-    font-weight: 300;
-}
-
-.total-boxes-value {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #e91e63; /* Red to match CDHDR chart */
-}
-
 .chart-canvas-wrapper {
     width: 100%;
-    height: calc(100vh - 120px); /* Full height minus header */
+    height: calc(100vh - 40px); /* Full height minus minimal padding */
     position: relative;
 }

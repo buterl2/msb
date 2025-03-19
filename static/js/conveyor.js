@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Register the annotation plugin
+    Chart.register(ChartAnnotation);
+
     // Fetch CDHDR statistics data on page load
     fetchCdhrData();
 
@@ -18,12 +21,10 @@ function fetchCdhrData() {
                 updateConveyorChart(data);
             } else {
                 console.error('Error loading CDHDR statistics:', data.error);
-                document.getElementById('total-boxes-count').textContent = 'Error';
             }
         })
         .catch(error => {
             console.error('Failed to fetch CDHDR statistics:', error);
-            document.getElementById('total-boxes-count').textContent = 'Error';
         });
 }
 
@@ -32,10 +33,6 @@ function updateConveyorChart(data) {
         console.error('Invalid CDHDR data structure');
         return;
     }
-    
-    // Update the total boxes count
-    const totalBoxes = data.data.total_boxes || 0;
-    document.getElementById('total-boxes-count').textContent = totalBoxes.toLocaleString();
 
     // If chart already exists, destroy it
     if (conveyorChart) {
@@ -89,7 +86,7 @@ function createHourlyChart(ctx, cdhrData) {
             maintainAspectRatio: false,
             layout: {
                 padding: {
-                    top: 10,
+                    top: 30, // Added more top padding for the target line annotation
                     right: 20,
                     bottom: 10,
                     left: 20
@@ -102,14 +99,14 @@ function createHourlyChart(ctx, cdhrData) {
                         text: 'Hour',
                         color: '#ffffff',
                         font: {
-                            size: 14,
+                            size: 16,
                             weight: 'bold'
                         }
                     },
                     ticks: {
                         color: '#ffffff',
                         font: {
-                            size: 14
+                            size: 16
                         }
                     },
                     grid: {
@@ -122,20 +119,21 @@ function createHourlyChart(ctx, cdhrData) {
                         text: 'Number of Boxes',
                         color: '#ffffff',
                         font: {
-                            size: 14,
+                            size: 16,
                             weight: 'bold'
                         }
                     },
                     ticks: {
                         color: '#ffffff',
                         font: {
-                            size: 14
+                            size: 16
                         }
                     },
                     grid: {
                         color: 'rgba(255, 255, 255, 0.1)'
                     },
-                    beginAtZero: true
+                    beginAtZero: true,
+                    suggestedMax: 700, // Added some space above the target line
                 }
             },
             plugins: {
@@ -145,7 +143,7 @@ function createHourlyChart(ctx, cdhrData) {
                     labels: {
                         color: '#ffffff',
                         font: {
-                            size: 14,
+                            size: 16,
                             weight: 'bold'
                         },
                         padding: 20
@@ -160,12 +158,35 @@ function createHourlyChart(ctx, cdhrData) {
                         }
                     },
                     titleFont: {
-                        size: 16
+                        size: 18
                     },
                     bodyFont: {
-                        size: 14
+                        size: 16
                     },
                     padding: 10
+                },
+                annotation: {
+                    annotations: {
+                        targetLine: {
+                            type: 'line',
+                            yMin: 600,
+                            yMax: 600,
+                            borderColor: '#FFD700', // Gold color for the target line
+                            borderWidth: 3,
+                            borderDash: [10, 5], // Dashed line
+                            label: {
+                                enabled: true,
+                                content: 'Target: 600',
+                                position: 'end',
+                                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                                color: '#FFD700',
+                                font: {
+                                    size: 16,
+                                    weight: 'bold'
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
