@@ -1,5 +1,5 @@
 {
-  "total_boxes": 550,
+  "total_boxes": 573,
   "users": [
     {
       "user": "HRLOUB65",
@@ -11,15 +11,15 @@
     },
     {
       "user": "HRLOUB75",
-      "box_count": 58
+      "box_count": 70
+    },
+    {
+      "user": "HRLOUB216",
+      "box_count": 45
     },
     {
       "user": "TYMOSR2",
       "box_count": 42
-    },
-    {
-      "user": "HRLOUB216",
-      "box_count": 34
     }
   ],
   "intervals": [
@@ -202,8 +202,17 @@
     {
       "interval_start": "08:15:00",
       "interval_end": "08:30:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 23,
+      "users": [
+        {
+          "user": "HRLOUB75",
+          "box_count": 12
+        },
+        {
+          "user": "HRLOUB216",
+          "box_count": 11
+        }
+      ]
     },
     {
       "interval_start": "08:30:00",
@@ -657,7 +666,7 @@
     },
     {
       "user": "HRLOUB75",
-      "total_boxes": 58,
+      "total_boxes": 70,
       "intervals": [
         {
           "interval_start": "06:30:00",
@@ -683,33 +692,17 @@
           "interval_start": "07:45:00",
           "interval_end": "08:00:00",
           "box_count": 11
-        }
-      ]
-    },
-    {
-      "user": "TYMOSR2",
-      "total_boxes": 42,
-      "intervals": [
-        {
-          "interval_start": "06:00:00",
-          "interval_end": "06:15:00",
-          "box_count": 8
         },
         {
-          "interval_start": "06:15:00",
-          "interval_end": "06:30:00",
-          "box_count": 32
-        },
-        {
-          "interval_start": "06:30:00",
-          "interval_end": "06:45:00",
-          "box_count": 2
+          "interval_start": "08:15:00",
+          "interval_end": "08:30:00",
+          "box_count": 12
         }
       ]
     },
     {
       "user": "HRLOUB216",
-      "total_boxes": 34,
+      "total_boxes": 45,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -735,6 +728,32 @@
           "interval_start": "07:45:00",
           "interval_end": "08:00:00",
           "box_count": 3
+        },
+        {
+          "interval_start": "08:15:00",
+          "interval_end": "08:30:00",
+          "box_count": 11
+        }
+      ]
+    },
+    {
+      "user": "TYMOSR2",
+      "total_boxes": 42,
+      "intervals": [
+        {
+          "interval_start": "06:00:00",
+          "interval_end": "06:15:00",
+          "box_count": 8
+        },
+        {
+          "interval_start": "06:15:00",
+          "interval_end": "06:30:00",
+          "box_count": 32
+        },
+        {
+          "interval_start": "06:30:00",
+          "interval_end": "06:45:00",
+          "box_count": 2
         }
       ]
     }
