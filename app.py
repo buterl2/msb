@@ -153,6 +153,11 @@ def zu_history_statistics():
 def statistics():
     return jsonify(get_statistics())
 
+# Add this new route to your app.py file
+@app.route('/conveyor')
+def conveyor():
+    return render_template('conveyor.html')
+
 @app.route('/api/pgid_lines_statistics')
 def pgid_lines_statistics():
     try:
