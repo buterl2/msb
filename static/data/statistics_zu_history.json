@@ -1,5 +1,5 @@
 {
-  "total_boxes": 3565,
+  "total_boxes": 3577,
   "users": [
     {
       "user": "HRLOUB65",
@@ -15,11 +15,11 @@
     },
     {
       "user": "HRLOUB104",
-      "box_count": 383
+      "box_count": 393
     },
     {
       "user": "HRLOUB60",
-      "box_count": 260
+      "box_count": 262
     },
     {
       "user": "HRLOUB216",
@@ -933,11 +933,11 @@
     {
       "interval_start": "16:45:00",
       "interval_end": "17:00:00",
-      "box_count": 69,
+      "box_count": 71,
       "users": [
         {
           "user": "HRLOUB104",
-          "box_count": 37
+          "box_count": 39
         },
         {
           "user": "HRLOUB60",
@@ -952,8 +952,17 @@
     {
       "interval_start": "17:00:00",
       "interval_end": "17:15:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 10,
+      "users": [
+        {
+          "user": "HRLOUB104",
+          "box_count": 8
+        },
+        {
+          "user": "HRLOUB60",
+          "box_count": 2
+        }
+      ]
     },
     {
       "interval_start": "17:15:00",
@@ -1513,7 +1522,7 @@
     },
     {
       "user": "HRLOUB104",
-      "total_boxes": 383,
+      "total_boxes": 393,
       "intervals": [
         {
           "interval_start": "14:15:00",
@@ -1563,13 +1572,18 @@
         {
           "interval_start": "16:45:00",
           "interval_end": "17:00:00",
-          "box_count": 37
+          "box_count": 39
+        },
+        {
+          "interval_start": "17:00:00",
+          "interval_end": "17:15:00",
+          "box_count": 8
         }
       ]
     },
     {
       "user": "HRLOUB60",
-      "total_boxes": 260,
+      "total_boxes": 262,
       "intervals": [
         {
           "interval_start": "14:30:00",
@@ -1620,6 +1634,11 @@
           "interval_start": "16:45:00",
           "interval_end": "17:00:00",
           "box_count": 31
+        },
+        {
+          "interval_start": "17:00:00",
+          "interval_end": "17:15:00",
+          "box_count": 2
         }
       ]
     },
