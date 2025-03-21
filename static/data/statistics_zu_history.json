@@ -1,5 +1,5 @@
 {
-  "total_boxes": 1978,
+  "total_boxes": 1992,
   "users": [
     {
       "user": "HRLOUB65",
@@ -7,7 +7,7 @@
     },
     {
       "user": "TYMOSR2",
-      "box_count": 564
+      "box_count": 576
     },
     {
       "user": "HRLOUB224",
@@ -15,7 +15,7 @@
     },
     {
       "user": "HRLOUB75",
-      "box_count": 249
+      "box_count": 251
     },
     {
       "user": "HRLOUB216",
@@ -566,11 +566,11 @@
     {
       "interval_start": "12:30:00",
       "interval_end": "12:45:00",
-      "box_count": 64,
+      "box_count": 66,
       "users": [
         {
           "user": "TYMOSR2",
-          "box_count": 35
+          "box_count": 37
         },
         {
           "user": "HRLOUB65",
@@ -589,8 +589,17 @@
     {
       "interval_start": "12:45:00",
       "interval_end": "13:00:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 12,
+      "users": [
+        {
+          "user": "TYMOSR2",
+          "box_count": 10
+        },
+        {
+          "user": "HRLOUB75",
+          "box_count": 2
+        }
+      ]
     },
     {
       "interval_start": "13:00:00",
@@ -985,7 +994,7 @@
     },
     {
       "user": "TYMOSR2",
-      "total_boxes": 564,
+      "total_boxes": 576,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1110,7 +1119,12 @@
         {
           "interval_start": "12:30:00",
           "interval_end": "12:45:00",
-          "box_count": 35
+          "box_count": 37
+        },
+        {
+          "interval_start": "12:45:00",
+          "interval_end": "13:00:00",
+          "box_count": 10
         }
       ]
     },
@@ -1172,7 +1186,7 @@
     },
     {
       "user": "HRLOUB75",
-      "total_boxes": 249,
+      "total_boxes": 251,
       "intervals": [
         {
           "interval_start": "08:00:00",
@@ -1238,6 +1252,11 @@
           "interval_start": "12:30:00",
           "interval_end": "12:45:00",
           "box_count": 7
+        },
+        {
+          "interval_start": "12:45:00",
+          "interval_end": "13:00:00",
+          "box_count": 2
         }
       ]
     },
