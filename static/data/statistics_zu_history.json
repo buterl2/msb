@@ -1,5 +1,5 @@
 {
-  "total_boxes": 1836,
+  "total_boxes": 1849,
   "users": [
     {
       "user": "HRLOUB65",
@@ -7,7 +7,7 @@
     },
     {
       "user": "TYMOSR2",
-      "box_count": 491
+      "box_count": 499
     },
     {
       "user": "HRLOUB224",
@@ -19,7 +19,7 @@
     },
     {
       "user": "HRLOUB216",
-      "box_count": 171
+      "box_count": 176
     }
   ],
   "intervals": [
@@ -524,15 +524,15 @@
     {
       "interval_start": "12:00:00",
       "interval_end": "12:15:00",
-      "box_count": 36,
+      "box_count": 48,
       "users": [
         {
           "user": "TYMOSR2",
-          "box_count": 14
+          "box_count": 21
         },
         {
           "user": "HRLOUB216",
-          "box_count": 12
+          "box_count": 17
         },
         {
           "user": "HRLOUB75",
@@ -543,8 +543,13 @@
     {
       "interval_start": "12:15:00",
       "interval_end": "12:30:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 1,
+      "users": [
+        {
+          "user": "TYMOSR2",
+          "box_count": 1
+        }
+      ]
     },
     {
       "interval_start": "12:30:00",
@@ -941,7 +946,7 @@
     },
     {
       "user": "TYMOSR2",
-      "total_boxes": 491,
+      "total_boxes": 499,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1056,7 +1061,12 @@
         {
           "interval_start": "12:00:00",
           "interval_end": "12:15:00",
-          "box_count": 14
+          "box_count": 21
+        },
+        {
+          "interval_start": "12:15:00",
+          "interval_end": "12:30:00",
+          "box_count": 1
         }
       ]
     },
@@ -1179,7 +1189,7 @@
     },
     {
       "user": "HRLOUB216",
-      "total_boxes": 171,
+      "total_boxes": 176,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1264,7 +1274,7 @@
         {
           "interval_start": "12:00:00",
           "interval_end": "12:15:00",
-          "box_count": 12
+          "box_count": 17
         }
       ]
     }
