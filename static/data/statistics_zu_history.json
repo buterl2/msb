@@ -1,9 +1,9 @@
 {
-  "total_boxes": 3619,
+  "total_boxes": 3685,
   "users": [
     {
       "user": "HRLOUB60",
-      "box_count": 985
+      "box_count": 986
     },
     {
       "user": "HRLOUB104",
@@ -11,11 +11,11 @@
     },
     {
       "user": "HRLOUB75",
-      "box_count": 737
+      "box_count": 756
     },
     {
       "user": "ROMANM50",
-      "box_count": 732
+      "box_count": 738
     },
     {
       "user": "HRLOUB105",
@@ -23,11 +23,11 @@
     },
     {
       "user": "HRLOUB65",
-      "box_count": 57
+      "box_count": 69
     },
     {
       "user": "HRLOUB224",
-      "box_count": 22
+      "box_count": 50
     }
   ],
   "intervals": [
@@ -816,39 +816,48 @@
     {
       "interval_start": "14:00:00",
       "interval_end": "14:15:00",
-      "box_count": 81,
+      "box_count": 145,
       "users": [
         {
-          "user": "ROMANM50",
-          "box_count": 29
+          "user": "HRLOUB224",
+          "box_count": 44
         },
         {
-          "user": "HRLOUB224",
-          "box_count": 17
+          "user": "ROMANM50",
+          "box_count": 35
         },
         {
           "user": "HRLOUB75",
-          "box_count": 14
+          "box_count": 32
+        },
+        {
+          "user": "HRLOUB65",
+          "box_count": 15
         },
         {
           "user": "HRLOUB60",
-          "box_count": 10
+          "box_count": 11
         },
         {
           "user": "HRLOUB104",
           "box_count": 8
-        },
-        {
-          "user": "HRLOUB65",
-          "box_count": 3
         }
       ]
     },
     {
       "interval_start": "14:15:00",
       "interval_end": "14:30:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 2,
+      "users": [
+        {
+          "user": "HRLOUB224",
+          "box_count": 1
+        },
+        {
+          "user": "HRLOUB75",
+          "box_count": 1
+        }
+      ]
     },
     {
       "interval_start": "14:30:00",
@@ -1076,7 +1085,7 @@
   "user_statistics": [
     {
       "user": "HRLOUB60",
-      "total_boxes": 985,
+      "total_boxes": 986,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1231,7 +1240,7 @@
         {
           "interval_start": "14:00:00",
           "interval_end": "14:15:00",
-          "box_count": 10
+          "box_count": 11
         }
       ]
     },
@@ -1388,7 +1397,7 @@
     },
     {
       "user": "HRLOUB75",
-      "total_boxes": 737,
+      "total_boxes": 756,
       "intervals": [
         {
           "interval_start": "06:30:00",
@@ -1533,13 +1542,18 @@
         {
           "interval_start": "14:00:00",
           "interval_end": "14:15:00",
-          "box_count": 14
+          "box_count": 32
+        },
+        {
+          "interval_start": "14:15:00",
+          "interval_end": "14:30:00",
+          "box_count": 1
         }
       ]
     },
     {
       "user": "ROMANM50",
-      "total_boxes": 732,
+      "total_boxes": 738,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1674,7 +1688,7 @@
         {
           "interval_start": "14:00:00",
           "interval_end": "14:15:00",
-          "box_count": 29
+          "box_count": 35
         }
       ]
     },
@@ -1796,7 +1810,7 @@
     },
     {
       "user": "HRLOUB65",
-      "total_boxes": 57,
+      "total_boxes": 69,
       "intervals": [
         {
           "interval_start": "13:15:00",
@@ -1816,13 +1830,13 @@
         {
           "interval_start": "14:00:00",
           "interval_end": "14:15:00",
-          "box_count": 3
+          "box_count": 15
         }
       ]
     },
     {
       "user": "HRLOUB224",
-      "total_boxes": 22,
+      "total_boxes": 50,
       "intervals": [
         {
           "interval_start": "13:45:00",
@@ -1832,7 +1846,12 @@
         {
           "interval_start": "14:00:00",
           "interval_end": "14:15:00",
-          "box_count": 17
+          "box_count": 44
+        },
+        {
+          "interval_start": "14:15:00",
+          "interval_end": "14:30:00",
+          "box_count": 1
         }
       ]
     }
