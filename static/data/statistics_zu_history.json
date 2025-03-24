@@ -1,5 +1,5 @@
 {
-  "total_boxes": 6113,
+  "total_boxes": 6134,
   "users": [
     {
       "user": "HRLOUB60",
@@ -19,7 +19,7 @@
     },
     {
       "user": "HRLOUB65",
-      "box_count": 711
+      "box_count": 728
     },
     {
       "user": "HRLOUB105",
@@ -31,7 +31,7 @@
     },
     {
       "user": "HRLOUB216",
-      "box_count": 211
+      "box_count": 215
     },
     {
       "user": "HRLOUB131",
@@ -1499,19 +1499,28 @@
     {
       "interval_start": "21:15:00",
       "interval_end": "21:30:00",
-      "box_count": 35,
+      "box_count": 40,
       "users": [
         {
           "user": "HRLOUB65",
-          "box_count": 35
+          "box_count": 40
         }
       ]
     },
     {
       "interval_start": "21:30:00",
       "interval_end": "21:45:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 16,
+      "users": [
+        {
+          "user": "HRLOUB65",
+          "box_count": 12
+        },
+        {
+          "user": "HRLOUB216",
+          "box_count": 4
+        }
+      ]
     },
     {
       "interval_start": "21:45:00",
@@ -2289,7 +2298,7 @@
     },
     {
       "user": "HRLOUB65",
-      "total_boxes": 711,
+      "total_boxes": 728,
       "intervals": [
         {
           "interval_start": "13:15:00",
@@ -2434,7 +2443,12 @@
         {
           "interval_start": "21:15:00",
           "interval_end": "21:30:00",
-          "box_count": 35
+          "box_count": 40
+        },
+        {
+          "interval_start": "21:30:00",
+          "interval_end": "21:45:00",
+          "box_count": 12
         }
       ]
     },
@@ -2722,7 +2736,7 @@
     },
     {
       "user": "HRLOUB216",
-      "total_boxes": 211,
+      "total_boxes": 215,
       "intervals": [
         {
           "interval_start": "14:45:00",
@@ -2808,6 +2822,11 @@
           "interval_start": "20:45:00",
           "interval_end": "21:00:00",
           "box_count": 11
+        },
+        {
+          "interval_start": "21:30:00",
+          "interval_end": "21:45:00",
+          "box_count": 4
         }
       ]
     },
