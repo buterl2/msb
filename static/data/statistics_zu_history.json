@@ -1,5 +1,5 @@
 {
-  "total_boxes": 1721,
+  "total_boxes": 1738,
   "users": [
     {
       "user": "HRLOUB60",
@@ -7,7 +7,7 @@
     },
     {
       "user": "HRLOUB104",
-      "box_count": 393
+      "box_count": 404
     },
     {
       "user": "ROMANM50",
@@ -15,11 +15,11 @@
     },
     {
       "user": "HRLOUB75",
-      "box_count": 334
+      "box_count": 337
     },
     {
       "user": "HRLOUB105",
-      "box_count": 159
+      "box_count": 162
     }
   ],
   "intervals": [
@@ -435,8 +435,21 @@
     {
       "interval_start": "10:15:00",
       "interval_end": "10:30:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 17,
+      "users": [
+        {
+          "user": "HRLOUB104",
+          "box_count": 11
+        },
+        {
+          "user": "HRLOUB105",
+          "box_count": 3
+        },
+        {
+          "user": "HRLOUB75",
+          "box_count": 3
+        }
+      ]
     },
     {
       "interval_start": "10:30:00",
@@ -851,7 +864,7 @@
     },
     {
       "user": "HRLOUB104",
-      "total_boxes": 393,
+      "total_boxes": 404,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -922,6 +935,11 @@
           "interval_start": "09:30:00",
           "interval_end": "09:45:00",
           "box_count": 29
+        },
+        {
+          "interval_start": "10:15:00",
+          "interval_end": "10:30:00",
+          "box_count": 11
         }
       ]
     },
@@ -1003,7 +1021,7 @@
     },
     {
       "user": "HRLOUB75",
-      "total_boxes": 334,
+      "total_boxes": 337,
       "intervals": [
         {
           "interval_start": "06:30:00",
@@ -1074,12 +1092,17 @@
           "interval_start": "10:00:00",
           "interval_end": "10:15:00",
           "box_count": 22
+        },
+        {
+          "interval_start": "10:15:00",
+          "interval_end": "10:30:00",
+          "box_count": 3
         }
       ]
     },
     {
       "user": "HRLOUB105",
-      "total_boxes": 159,
+      "total_boxes": 162,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1140,6 +1163,11 @@
           "interval_start": "09:15:00",
           "interval_end": "09:30:00",
           "box_count": 8
+        },
+        {
+          "interval_start": "10:15:00",
+          "interval_end": "10:30:00",
+          "box_count": 3
         }
       ]
     }
