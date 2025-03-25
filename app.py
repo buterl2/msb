@@ -109,7 +109,7 @@ def bin_locations():
                 
             return jsonify({
                 'success': True,
-                'layouts': data['layouts'],
+                'layout': data['layout'],
                 'last_modified': datetime.fromtimestamp(current_mod_time).strftime('%Y-%m-%d %H:%M:%S')
             })
         else:

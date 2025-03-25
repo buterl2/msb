@@ -1,91 +1,43 @@
 {
-    "layouts": {
-      "default": {
-        "columns": 10,
-        "bins": [
-          {"location": "B0110", "column": 1, "status": "active"},
-          {"location": "B0111", "column": 1, "status": "active"},
-          {"location": "B0112", "column": 1, "status": "active"},
-          {"location": "B0113", "column": 1, "status": "empty"},
-          {"location": "B0114", "column": 1, "status": "active"},
-          {"location": "B0115", "column": 1, "status": "active"},
-          
-          {"location": "B0120", "column": 2, "status": "active"},
-          {"location": "B0121", "column": 2, "status": "active"},
-          {"location": "B0122", "column": 2, "status": "empty"},
-          {"location": "B0123", "column": 2, "status": "active"},
-          {"location": "B0124", "column": 2, "status": "active"},
-          {"location": "B0125", "column": 2, "status": "active"},
-          
-          {"location": "B0130", "column": 3, "status": "active"},
-          {"location": "B0131", "column": 3, "status": "active"},
-          {"location": "B0132", "column": 3, "status": "active"},
-          {"location": "B0133", "column": 3, "status": "active"},
-          {"location": "B0134", "column": 3, "status": "empty"},
-          {"location": "B0135", "column": 3, "status": "active"},
-          
-          {"location": "B0140", "column": 4, "status": "active"},
-          {"location": "B0141", "column": 4, "status": "active"},
-          {"location": "B0142", "column": 4, "status": "active"},
-          {"location": "B0143", "column": 4, "status": "active"},
-          {"location": "B0144", "column": 4, "status": "active"},
-          {"location": "B0145", "column": 4, "status": "empty"},
-          
-          {"location": "B0150", "column": 5, "status": "active"},
-          {"location": "B0151", "column": 5, "status": "active"},
-          {"location": "B0152", "column": 5, "status": "empty"},
-          {"location": "B0153", "column": 5, "status": "active"},
-          {"location": "B0154", "column": 5, "status": "active"},
-          {"location": "B0155", "column": 5, "status": "active"},
-          
-          {"location": "B0160", "column": 6, "status": "active"}
-        ]
-      },
-      "layout1": {
-        "columns": 5,
-        "bins": [
-          {"location": "A0110", "column": 1, "status": "active"},
-          {"location": "A0111", "column": 1, "status": "active"},
-          {"location": "A0112", "column": 1, "status": "active"},
-          
-          {"location": "A0120", "column": 2, "status": "active"},
-          {"location": "A0121", "column": 2, "status": "empty"},
-          {"location": "A0122", "column": 2, "status": "active"},
-          
-          {"location": "A0130", "column": 3, "status": "active"},
-          {"location": "A0131", "column": 3, "status": "active"},
-          {"location": "A0132", "column": 3, "status": "active"},
-          
-          {"location": "A0140", "column": 4, "status": "active"},
-          {"location": "A0141", "column": 4, "status": "empty"},
-          {"location": "A0142", "column": 4, "status": "active"},
-          
-          {"location": "A0150", "column": 5, "status": "active"},
-          {"location": "A0151", "column": 5, "status": "active"},
-          {"location": "A0152", "column": 5, "status": "active"}
-        ]
-      },
-      "layout2": {
-        "columns": 3,
-        "bins": [
-          {"location": "C0210", "column": 1, "status": "active"},
-          {"location": "C0211", "column": 1, "status": "active"},
-          {"location": "C0212", "column": 1, "status": "active"},
-          {"location": "C0213", "column": 1, "status": "active"},
-          {"location": "C0214", "column": 1, "status": "empty"},
-          
-          {"location": "C0220", "column": 2, "status": "active"},
-          {"location": "C0221", "column": 2, "status": "active"},
-          {"location": "C0222", "column": 2, "status": "empty"},
-          {"location": "C0223", "column": 2, "status": "active"},
-          {"location": "C0224", "column": 2, "status": "active"},
-          
-          {"location": "C0230", "column": 3, "status": "active"},
-          {"location": "C0231", "column": 3, "status": "active"},
-          {"location": "C0232", "column": 3, "status": "active"},
-          {"location": "C0233", "column": 3, "status": "empty"},
-          {"location": "C0234", "column": 3, "status": "active"}
-        ]
-      }
+    "layout": {
+      "columns": 15,
+      "bins": [
+        {"location": "B0110", "column": 1, "status": "active"},
+        {"location": "B0111", "column": 1, "status": "active"},
+        {"location": "B0112", "column": 1, "status": "active"},
+        {"location": "B0113", "column": 1, "status": "empty"},
+        {"location": "B0114", "column": 1, "status": "active"},
+        {"location": "B0115", "column": 1, "status": "active"},
+        
+        {"location": "B0120", "column": 2, "status": "active"},
+        {"location": "B0121", "column": 2, "status": "active"},
+        {"location": "B0122", "column": 2, "status": "empty"},
+        {"location": "B0123", "column": 2, "status": "active"},
+        {"location": "B0124", "column": 2, "status": "active"},
+        {"location": "B0125", "column": 2, "status": "active"},
+        
+        {"location": "B0130", "column": 3, "status": "active"},
+        {"location": "B0131", "column": 3, "status": "active"},
+        {"location": "B0132", "column": 3, "status": "active"},
+        {"location": "B0133", "column": 3, "status": "active"},
+        {"location": "B0134", "column": 3, "status": "empty"},
+        {"location": "B0135", "column": 3, "status": "active"},
+        
+        {"location": "B0140", "column": 4, "status": "active"},
+        {"location": "B0141", "column": 4, "status": "active"},
+        {"location": "B0142", "column": 4, "status": "active"},
+        {"location": "B0143", "column": 4, "status": "active"},
+        {"location": "B0144", "column": 4, "status": "active"},
+        {"location": "B0145", "column": 4, "status": "empty"},
+        
+        {"location": "B0150", "column": 5, "status": "active"},
+        {"location": "B0151", "column": 5, "status": "active"},
+        {"location": "B0152", "column": 5, "status": "empty"},
+        {"location": "B0153", "column": 5, "status": "active"},
+        {"location": "B0154", "column": 5, "status": "active"},
+        {"location": "B0155", "column": 5, "status": "active"},
+        
+        {"location": "B0160", "column": 6, "status": "active"}
+      ]
     }
   }

@@ -4,11 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Load bin locations from JSON file
     loadBinLocations();
-    
-    // Setup event listeners
-    document.getElementById('layout-selector').addEventListener('change', function() {
-        loadBinLocations(this.value);
-    });
 });
 
 function updateTimestamp() {
@@ -24,13 +19,14 @@ function updateTimestamp() {
     document.getElementById('last-update').textContent = `Last Update: ${formattedTime}`;
 }
 
-function loadBinLocations(layoutName = 'default') {
+function loadBinLocations() {
     // Fetch the JSON file with bin layout data
     fetch('/api/bin_locations')
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                renderBinLayout(data.layouts[layoutName] || data.layouts.default);
+                // Always use the default layout
+                renderBinLayout(data.layout);
             } else {
                 console.error('Error loading bin locations:', data.error);
                 showError();

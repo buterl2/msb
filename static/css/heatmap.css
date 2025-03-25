@@ -59,42 +59,15 @@ body {
     margin-top: 5px;
 }
 
-.main-container {
-    width: calc(100% - 60px);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border: 1px solid #384557;
-    border-radius: 8px;
-    overflow: hidden;
-    padding: 30px;
-    background-color: #121c2b;
-}
-
-.heatmap-controls {
-    width: calc(100% - 60px);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#layout-selector {
-    background-color: #1e293b;
-    color: white;
-    border: 1px solid #384557;
-    padding: 8px 12px;
-    border-radius: 4px;
-    font-size: 14px;
-}
+/* Removed main-container and heatmap-controls styles */
 
 .heatmap-container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 10px;
+    gap: 4px;
     padding: 20px;
+    width: calc(100% - 60px);
+    margin: 30px auto;
 }
 
 .bin {
@@ -104,12 +77,14 @@ body {
     justify-content: center;
     background-color: #1e293b;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
-    border-radius: 4px;
+    border-radius: 3px;
     cursor: pointer;
     transition: all 0.2s ease;
     border: 1px solid #384557;
+    width: 35px;
+    height: 35px;
 }
 
 .bin:hover {
