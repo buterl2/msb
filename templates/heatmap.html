@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MSB Warehouse Heatmap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/heatmap.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <meta http-equiv="refresh" content="300"> <!-- Auto-refresh every 5 minutes -->
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo-container">
+            <img src="https://www.medtronic.com/content/dam/medtronic-com/medtronic75.svg" alt="Medtronic Logo" class="logo">
+        </div>
+        
+        <div class="title-container">
+            <h1 class="doto-title">Warehouse Heatmap</h1>
+            <div id="last-update" class="last-update">Last Update: --/--/---- --:--:--</div>
+        </div>
+    </div>
+    
+    <div class="heatmap-controls">
+        <select id="layout-selector">
+            <option value="default">Default Layout</option>
+            <option value="layout1">Layout 1</option>
+            <option value="layout2">Layout 2</option>
+        </select>
+    </div>
+    
+    <div class="main-container">
+        <div class="heatmap-container" id="heatmap">
+            <!-- Heatmap bins will be generated here by JavaScript -->
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Made with <span class="heart">❤</span></p>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/heatmap.js') }}"></script>
+</body>
+</html>

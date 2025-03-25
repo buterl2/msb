@@ -89,6 +89,68 @@ def get_ltap_statistics():
 def ltap_statistics():
     return jsonify(get_ltap_statistics())
 
+@app.route('/heatmap')
+def heatmap():
+    """Render the heatmap page"""
+    return render_template('heatmap.html')
+
+@app.route('/api/bin_locations')
+def bin_locations():
+    """API endpoint to get bin location data"""
+    try:
+        # Path to the JSON file
+        json_path = 'static/data/bin_locations.json'
+        
+        if os.path.exists(json_path):
+            current_mod_time = os.path.getmtime(json_path)
+            
+            with open(json_path, 'r') as file:
+                data = json.load(file)
+                
+            return jsonify({
+                'success': True,
+                'layouts': data['layouts'],
+                'last_modified': datetime.fromtimestamp(current_mod_time).strftime('%Y-%m-%d %H:%M:%S')
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'error': 'Bin locations file not found'
+            })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        })
+
+# Function to generate bin locations in range
+def generate_bin_range(start_bin, end_bin, column=1):
+    """Generate a range of bin locations between start and end"""
+    # This is a helper function you can use later to generate bin ranges
+    bins = []
+    
+    # Get the letter prefix and numeric part of the bins
+    prefix_start = ''.join(filter(str.isalpha, start_bin))
+    prefix_end = ''.join(filter(str.isalpha, end_bin))
+    
+    if prefix_start != prefix_end:
+        # If prefixes don't match, we can't generate a range
+        return bins
+    
+    num_start = int(''.join(filter(str.isdigit, start_bin)))
+    num_end = int(''.join(filter(str.isdigit, end_bin)))
+    
+    # Generate bins in the range
+    for num in range(num_start, num_end + 1):
+        bin_id = f"{prefix_start}{num:04d}"
+        bins.append({
+            "location": bin_id,
+            "column": column,
+            "status": "active"
+        })
+    
+    return bins
+
 @app.route('/api/cdhdr_statistics')
 def cdhdr_statistics():
     try:
