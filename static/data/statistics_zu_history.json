@@ -1,5 +1,5 @@
 {
-  "total_boxes": 3343,
+  "total_boxes": 3385,
   "users": [
     {
       "user": "HRLOUB104",
@@ -7,11 +7,11 @@
     },
     {
       "user": "ROMANM50",
-      "box_count": 835
+      "box_count": 852
     },
     {
       "user": "HRLOUB60",
-      "box_count": 757
+      "box_count": 768
     },
     {
       "user": "HRLOUB75",
@@ -19,7 +19,7 @@
     },
     {
       "user": "HRLOUB105",
-      "box_count": 150
+      "box_count": 152
     },
     {
       "user": "TYMOSR2",
@@ -27,7 +27,11 @@
     },
     {
       "user": "HRLOUB65",
-      "box_count": 32
+      "box_count": 36
+    },
+    {
+      "user": "HRLOUB224",
+      "box_count": 8
     }
   ],
   "intervals": [
@@ -741,35 +745,52 @@
     {
       "interval_start": "13:45:00",
       "interval_end": "14:00:00",
-      "box_count": 100,
+      "box_count": 126,
       "users": [
         {
           "user": "TYMOSR2",
           "box_count": 30
         },
         {
+          "user": "ROMANM50",
+          "box_count": 26
+        },
+        {
+          "user": "HRLOUB65",
+          "box_count": 21
+        },
+        {
+          "user": "HRLOUB60",
+          "box_count": 20
+        },
+        {
           "user": "HRLOUB104",
           "box_count": 19
         },
         {
-          "user": "ROMANM50",
-          "box_count": 19
+          "user": "HRLOUB224",
+          "box_count": 8
         },
         {
-          "user": "HRLOUB65",
-          "box_count": 17
-        },
-        {
-          "user": "HRLOUB60",
-          "box_count": 15
+          "user": "HRLOUB105",
+          "box_count": 2
         }
       ]
     },
     {
       "interval_start": "14:00:00",
       "interval_end": "14:15:00",
-      "box_count": 0,
-      "users": []
+      "box_count": 16,
+      "users": [
+        {
+          "user": "ROMANM50",
+          "box_count": 10
+        },
+        {
+          "user": "HRLOUB60",
+          "box_count": 6
+        }
+      ]
     },
     {
       "interval_start": "14:15:00",
@@ -1149,7 +1170,7 @@
     },
     {
       "user": "ROMANM50",
-      "total_boxes": 835,
+      "total_boxes": 852,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1259,13 +1280,18 @@
         {
           "interval_start": "13:45:00",
           "interval_end": "14:00:00",
-          "box_count": 19
+          "box_count": 26
+        },
+        {
+          "interval_start": "14:00:00",
+          "interval_end": "14:15:00",
+          "box_count": 10
         }
       ]
     },
     {
       "user": "HRLOUB60",
-      "total_boxes": 757,
+      "total_boxes": 768,
       "intervals": [
         {
           "interval_start": "06:00:00",
@@ -1405,7 +1431,12 @@
         {
           "interval_start": "13:45:00",
           "interval_end": "14:00:00",
-          "box_count": 15
+          "box_count": 20
+        },
+        {
+          "interval_start": "14:00:00",
+          "interval_end": "14:15:00",
+          "box_count": 6
         }
       ]
     },
@@ -1532,7 +1563,7 @@
     },
     {
       "user": "HRLOUB105",
-      "total_boxes": 150,
+      "total_boxes": 152,
       "intervals": [
         {
           "interval_start": "06:15:00",
@@ -1623,6 +1654,11 @@
           "interval_start": "12:45:00",
           "interval_end": "13:00:00",
           "box_count": 5
+        },
+        {
+          "interval_start": "13:45:00",
+          "interval_end": "14:00:00",
+          "box_count": 2
         }
       ]
     },
@@ -1659,7 +1695,7 @@
     },
     {
       "user": "HRLOUB65",
-      "total_boxes": 32,
+      "total_boxes": 36,
       "intervals": [
         {
           "interval_start": "13:30:00",
@@ -1669,7 +1705,18 @@
         {
           "interval_start": "13:45:00",
           "interval_end": "14:00:00",
-          "box_count": 17
+          "box_count": 21
+        }
+      ]
+    },
+    {
+      "user": "HRLOUB224",
+      "total_boxes": 8,
+      "intervals": [
+        {
+          "interval_start": "13:45:00",
+          "interval_end": "14:00:00",
+          "box_count": 8
         }
       ]
     }
